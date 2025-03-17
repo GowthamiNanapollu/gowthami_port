@@ -1894,18 +1894,21 @@ body::before {
 
 
 .name {
-    margin: 5px 0; /* Reduce space around */
-    font-size: 1.5rem; /* Slightly larger for better readability */
-    font-weight: bold; /* Emphasizes the name */
-    text-align: center; /* Keeps it centered on smaller screens */
+    margin: 5px 0;
+    font-size: 1.8rem; /* Keep original desktop size */
+    font-weight: bold;
+    text-align: center;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+/* Mobile View */
+@media (max-width: 480px) {
     .name {
-        font-size: 0.9rem; /* Adjusts font size for mobile screens */
+        font-size: 1.2rem; /* Reduce size for better readability */
+        font-weight: 600; /* Slightly lighter for clarity */
+        line-height: 1.3; /* Improve spacing */
     }
 }
+
 
     
 
