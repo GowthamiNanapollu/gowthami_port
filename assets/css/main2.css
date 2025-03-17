@@ -630,17 +630,7 @@ button.icon.solo:before,
 			font-size: 1rem;
 		}
 
-/* List */
 
-	
-
-/* Section/Article */
-
-	
-
-/* Table */
-
-	
 
 /* Pagination */
 
@@ -1894,14 +1884,19 @@ body::before {
 }
 
 
-
 .name {
     margin: 5px 0; /* Reduce space around */
-    font-size: 1.2rem; /* Ensures readable text size */
+    font-size: 1.5rem; /* Slightly larger for better readability */
+    font-weight: bold; /* Emphasizes the name */
     text-align: center; /* Keeps it centered on smaller screens */
 }
 
-
+/* Responsive Design */
+@media (max-width: 768px) {
+    .name {
+        font-size: 1.2rem; /* Adjusts font size for mobile screens */
+    }
+}
 
     
 
